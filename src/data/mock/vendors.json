@@ -1,0 +1,38 @@
+[
+  {
+    "id": "v1",
+    "name": "شركة التقنية المتقدمة",
+    "category": "خدمات سحابية",
+    "annualSpend": 1850000,
+    "priceDiffPercent": 18,
+    "benchmarkVendor": "مزود البيانات السحابية"
+  },
+  {
+    "id": "v2",
+    "name": "حلول الأعمال الذكية",
+    "category": "برمجيات مؤسسية",
+    "annualSpend": 920000,
+    "priceDiffPercent": 12,
+    "benchmarkVendor": "منصة الأعمال الموحدة"
+  },
+  {
+    "id": "v3",
+    "name": "مزود البيانات السحابية",
+    "category": "خدمات سحابية",
+    "annualSpend": 1568000
+  },
+  {
+    "id": "v4",
+    "name": "شبكات الاتصالات المتكاملة",
+    "category": "اتصالات",
+    "annualSpend": 640000,
+    "priceDiffPercent": 9,
+    "benchmarkVendor": "حلول الاتصال المؤسسي"
+  },
+  {
+    "id": "v5",
+    "name": "منصة الأعمال الموحدة",
+    "category": "برمجيات مؤسسية",
+    "annualSpend": 820000
+  }
+]

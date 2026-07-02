@@ -1,0 +1,14 @@
+[
+  { "id": "e1", "category": "تراخيص برمجية", "amount": 420000, "month": "يناير" },
+  { "id": "e2", "category": "تراخيص برمجية", "amount": 385000, "month": "فبراير" },
+  { "id": "e3", "category": "تراخيص برمجية", "amount": 410000, "month": "مارس" },
+  { "id": "e4", "category": "موردين", "amount": 680000, "month": "يناير" },
+  { "id": "e5", "category": "موردين", "amount": 720000, "month": "فبراير" },
+  { "id": "e6", "category": "موردين", "amount": 695000, "month": "مارس" },
+  { "id": "e7", "category": "أصول تقنية", "amount": 180000, "month": "يناير" },
+  { "id": "e8", "category": "أصول تقنية", "amount": 165000, "month": "فبراير" },
+  { "id": "e9", "category": "أصول تقنية", "amount": 190000, "month": "مارس" },
+  { "id": "e10", "category": "عقود صيانة", "amount": 95000, "month": "يناير" },
+  { "id": "e11", "category": "عقود صيانة", "amount": 88000, "month": "فبراير" },
+  { "id": "e12", "category": "عقود صيانة", "amount": 92000, "month": "مارس" }
+]

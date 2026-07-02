@@ -1,0 +1,42 @@
+[
+  {
+    "id": "a1",
+    "name": "محطة عمل HP Z8 G5",
+    "type": "محطة عمل",
+    "department": "التصميم",
+    "utilizationRate": 22,
+    "annualCost": 48000
+  },
+  {
+    "id": "a2",
+    "name": "محطة عمل Dell Precision 7865",
+    "type": "محطة عمل",
+    "department": "الهندسة",
+    "utilizationRate": 18,
+    "annualCost": 42000
+  },
+  {
+    "id": "a3",
+    "name": "خادم Dell PowerEdge R750",
+    "type": "خادم",
+    "department": "تقنية المعلومات",
+    "utilizationRate": 35,
+    "annualCost": 86000
+  },
+  {
+    "id": "a4",
+    "name": "محطة عمل Lenovo ThinkStation P620",
+    "type": "محطة عمل",
+    "department": "التحليلات",
+    "utilizationRate": 15,
+    "annualCost": 38000
+  },
+  {
+    "id": "a5",
+    "name": "طابعة Xerox VersaLink C7000",
+    "type": "طابعة",
+    "department": "الإدارة",
+    "utilizationRate": 8,
+    "annualCost": 24000
+  }
+]

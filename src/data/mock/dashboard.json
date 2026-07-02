@@ -1,0 +1,70 @@
+{
+  "kpis": [
+    {
+      "id": "k1",
+      "title": "التوفير المحتمل",
+      "value": "٢٬٣٥٠٬٠٠٠",
+      "change": 12.5,
+      "trend": "up",
+      "icon": "savings",
+      "description": "إجمالي فرص التوفير المكتشفة هذا الربع"
+    },
+    {
+      "id": "k2",
+      "title": "تراخيص غير نشطة",
+      "value": "31",
+      "change": 8,
+      "trend": "down",
+      "icon": "license",
+      "description": "تراخيص بدون نشاط خلال 90 يوماً"
+    },
+    {
+      "id": "k3",
+      "title": "أصول غير مستغلة",
+      "value": "14",
+      "change": 3,
+      "trend": "down",
+      "icon": "assets",
+      "description": "أصول بمعدل استخدام أقل من 25%"
+    },
+    {
+      "id": "k4",
+      "title": "موردين مرتفعي التكلفة",
+      "value": "4",
+      "change": 1,
+      "trend": "up",
+      "icon": "vendors",
+      "description": "موردين يتجاوزون متوسط السوق"
+    }
+  ],
+  "recentAnalysis": [
+    {
+      "id": "an1",
+      "title": "تحليل النفقات التشغيلية — الربع الأول ٢٠٢٦",
+      "date": "2026-03-28",
+      "status": "مكتمل",
+      "findings": 12
+    },
+    {
+      "id": "an2",
+      "title": "مراجعة تراخيص البرمجيات",
+      "date": "2026-03-25",
+      "status": "مكتمل",
+      "findings": 8
+    },
+    {
+      "id": "an3",
+      "title": "تحليل عقود الموردين",
+      "date": "2026-03-22",
+      "status": "قيد المراجعة",
+      "findings": 5
+    },
+    {
+      "id": "an4",
+      "title": "تقييم استخدام الأصول التقنية",
+      "date": "2026-03-18",
+      "status": "مكتمل",
+      "findings": 6
+    }
+  ]
+}

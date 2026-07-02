@@ -1,0 +1,96 @@
+@import "tailwindcss";
+
+@theme inline {
+  /* Gold palette */
+  --color-gold: #b8892d;
+  --color-gold-dark: #9a7425;
+  --color-gold-light: #d8b56a;
+  --color-gold-soft: #faf6ed;
+
+  /* Neutrals */
+  --color-black: #111111;
+  --color-dark-gray: #1b1b1b;
+  --color-medium-gray: #444444;
+  --color-surface: #ffffff;
+  --color-canvas: #fafaf8;
+
+  /* Legacy aliases → black/gold rebrand */
+  --color-navy-950: #111111;
+  --color-navy-900: #111111;
+  --color-navy-800: #1b1b1b;
+  --color-navy-700: #444444;
+  --color-accent: #b8892d;
+  --color-accent-soft: #faf6ed;
+
+  --font-sans: var(--font-tajawal);
+  --shadow-card: 0 1px 2px rgb(17 17 17 / 3%), 0 2px 8px rgb(17 17 17 / 4%), 0 8px 24px rgb(17 17 17 / 5%);
+  --shadow-card-hover: 0 2px 4px rgb(17 17 17 / 4%), 0 8px 20px rgb(17 17 17 / 7%), 0 16px 40px rgb(17 17 17 / 6%);
+  --shadow-sidebar: -1px 0 0 rgb(226 232 240 / 80%), 4px 0 32px rgb(17 17 17 / 3%);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #d8b56a transparent;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-canvas);
+  color: var(--color-black);
+  font-family: var(--font-tajawal), system-ui, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: #b8892d;
+  color: #111111;
+}
+
+.shadow-card {
+  box-shadow: var(--shadow-card);
+}
+
+.shadow-card-hover:hover {
+  box-shadow: var(--shadow-card-hover);
+}
+
+.bg-mesh {
+  background-color: #fafaf8;
+  background-image:
+    radial-gradient(ellipse 80% 60% at 100% 0%, rgb(184 137 45 / 5%) 0%, transparent 55%),
+    radial-gradient(ellipse 60% 50% at 0% 100%, rgb(17 17 17 / 3%) 0%, transparent 50%);
+}
+
+.list-row {
+  display: flex;
+  align-items: center;
+  gap: 0.875rem;
+  border-radius: 0.75rem;
+  border: 1px solid rgb(241 245 249);
+  padding: 0.875rem 1rem;
+  transition: background-color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.list-row:hover {
+  background-color: rgb(250 246 237);
+  border-color: rgb(216 181 106 / 30%);
+  box-shadow: 0 1px 3px rgb(17 17 17 / 3%);
+}
+
+.num {
+  direction: ltr;
+  unicode-bidi: embed;
+  display: inline-block;
+  font-variant-numeric: tabular-nums;
+}
+
+.safe-bottom {
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}

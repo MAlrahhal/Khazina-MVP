@@ -1,0 +1,56 @@
+[
+  {
+    "id": "l1",
+    "software": "Microsoft 365 E5",
+    "department": "الموارد البشرية",
+    "seats": 45,
+    "usedSeats": 12,
+    "annualCost": 189000,
+    "status": "غير مستخدم"
+  },
+  {
+    "id": "l2",
+    "software": "Adobe Creative Cloud",
+    "department": "التسويق",
+    "seats": 30,
+    "usedSeats": 8,
+    "annualCost": 156000,
+    "status": "غير مستخدم"
+  },
+  {
+    "id": "l3",
+    "software": "Salesforce Enterprise",
+    "department": "المبيعات",
+    "seats": 25,
+    "usedSeats": 25,
+    "annualCost": 425000,
+    "status": "نشط"
+  },
+  {
+    "id": "l4",
+    "software": "Zoom Business",
+    "department": "الإدارة العامة",
+    "seats": 20,
+    "usedSeats": 5,
+    "annualCost": 48000,
+    "status": "مكرر"
+  },
+  {
+    "id": "l5",
+    "software": "Slack Enterprise",
+    "department": "تقنية المعلومات",
+    "seats": 15,
+    "usedSeats": 3,
+    "annualCost": 72000,
+    "status": "مكرر"
+  },
+  {
+    "id": "l6",
+    "software": "AutoCAD Professional",
+    "department": "الهندسة",
+    "seats": 12,
+    "usedSeats": 4,
+    "annualCost": 96000,
+    "status": "غير مستخدم"
+  }
+]
